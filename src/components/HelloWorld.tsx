@@ -1,4 +1,5 @@
-import jsx from '../services/jsx/factory';
+import jsx from '../services/jsx/jsx';
+//import './HelloWorld.scss';
 
 export default function HelloWorld() {
 	return (

@@ -4,6 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "esbuild src/main.ts --bundle --outfile=dist/main.js --format=esm --target=es2020 --jsx=automatic --jsx-import-source=./src/jsx-runtime --watch"
+    "dev": "esbuild src/main.ts --bundle --outfile=dist/main.js --watch",
+    "prod": "esbuild src/main.ts --bundle --outfile=dist/main.js --minify"
   }
 }
